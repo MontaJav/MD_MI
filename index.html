@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIT BOX – Veselīgu maltīšu piegāde</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="hero">
+    <nav class="nav">
+      <div class="logo">FIT BOX</div>
+      <ul class="nav__links">
+        <li><a href="#features">Funkcijas</a></li>
+        <li><a href="#case-studies">Gadījumu pētījumi</a></li>
+        <li><a href="#testimonials">Atsauksmes</a></li>
+        <li><a href="#pricing">Cenas</a></li>
+        <li><a class="btn btn--nav" href="#signup">Piesakies</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Izvēlnes poga">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="hero__content">
+      <div class="hero__text">
+        <p class="hero__badge">Jaunās paaudzes veselīgo maltīšu risinājums</p>
+        <h1>FIT BOX – gudrāk, ātrāk un garšīgāk</h1>
+        <p class="hero__description">
+          Automatizēta platforma, kas piegādā personalizētas, sabalansētas maltītes tieši tavās durvīs.
+          Mēs apvienojam uztura zinātni, mākslīgo intelektu un ilgtspējīgas piegādes ķēdes, lai tu varētu
+          koncentrēties uz svarīgāko.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#signup">Pirms pasūtīšanas paziņojums</a>
+          <a class="btn btn--ghost" href="#features">Uzzini vairāk</a>
+        </div>
+        <div class="countdown" role="timer" aria-live="polite">
+          <div class="countdown__item">
+            <span id="days">00</span>
+            <small>Dienas</small>
+          </div>
+          <div class="countdown__item">
+            <span id="hours">00</span>
+            <small>Stundas</small>
+          </div>
+          <div class="countdown__item">
+            <span id="minutes">00</span>
+            <small>Minūtes</small>
+          </div>
+          <div class="countdown__item">
+            <span id="seconds">00</span>
+            <small>Sekundes</small>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__orb"></div>
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="FIT BOX maltīšu komplekts">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--features" id="features">
+      <div class="section__header">
+        <h2>Funkcionalitāte un tehnoloģijas</h2>
+        <p>Mēs apvienojam uztura speciālistu zināšanas ar datu analīzi, lai piegādātu precīzi to, kas nepieciešams tieši tev.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon">🍽️</div>
+          <h3>AI personalizētas receptes</h3>
+          <p>Inteliģents uztura profils analizē tavu dienas režīmu, veselības mērķus un garšas izvēles, lai izstrādātu individuālu maltīšu plānu.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🚚</div>
+          <h3>Reālā laika piegādes loģistika</h3>
+          <p>IoT sensori seko temperatūrai un piegādes statusam, nodrošinot svaigumu un precīzu piegādes laiku līdz minūtei.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Mobilā lietotne</h3>
+          <p>Pielāgo maltītes, uzstādi prioritātes un seko uzturvērtībām tieši lietotnē. Notifikācijas informē par katru soli.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">♻️</div>
+          <h3>Ilgtspējīgi iepakojumi</h3>
+          <p>Atkārtoti izmantojamas kastes ar iebūvētiem aukstuma moduļiem, kas uztur perfektu temperatūru un samazina atkritumus.</p>
+        </article>
+      </div>
+      <div class="feature-showcase">
+        <div class="video-demo">
+          <iframe title="FIT BOX demonstrācija" src="https://www.youtube.com/embed/UKdR2XqQ1Cs" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="slider" aria-label="FIT BOX lietošanas piemēri">
+          <button class="slider__control" data-direction="prev" aria-label="Iepriekšējais">‹</button>
+          <div class="slider__viewport">
+            <div class="slider__track">
+              <figure class="slider__item">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" alt="Sporta uztura komplekts">
+                <figcaption>Enerģijas komplekti pēc treniņa ar precīzu makrouzturu.</figcaption>
+              </figure>
+              <figure class="slider__item">
+                <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=800&q=80" alt="Biroja pusdienu komplekts">
+                <figcaption>Gudras pusdienas birojā – nav jāzaudē laiks gatavošanai.</figcaption>
+              </figure>
+              <figure class="slider__item">
+                <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80" alt="Ģimenes vakariņu komplekts">
+                <figcaption>Sabalanētas ģimenes vakariņas ar minimālu gatavošanas laiku.</figcaption>
+              </figure>
+            </div>
+          </div>
+          <button class="slider__control" data-direction="next" aria-label="Nākamais">›</button>
+        </div>
+      </div>
+      <dl class="specs">
+        <div>
+          <dt>Piegādes biežums</dt>
+          <dd>No 1 līdz 5 reizēm nedēļā ar elastīgu grafiku.</dd>
+        </div>
+        <div>
+          <dt>Atbalstītās diētas</dt>
+          <dd>Vegāns, keto, bezglutēna, sporta uzturs un personalizēti risinājumi.</dd>
+        </div>
+        <div>
+          <dt>Drošības standarti</dt>
+          <dd>ISO 22000 sertifikācija, blockchain izsekojamība piegādes ķēdē.</dd>
+        </div>
+        <div>
+          <dt>Integrācijas</dt>
+          <dd>Apple Health, Google Fit, Garmin, Strava un korporatīvie HR risinājumi.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="section section--case" id="case-studies">
+      <div class="section__header">
+        <h2>Gadījumu pētījumi</h2>
+        <p>Reāli dati, kas apliecina FIT BOX ietekmi uz veselību un produktivitāti.</p>
+      </div>
+      <div class="case-grid">
+        <article class="case-card">
+          <h3>"BoostLab" jaunuzņēmums</h3>
+          <p>Pēc FIT BOX ieviešanas darbinieku labsajūtas indekss pieauga par 37%, bet kavējumu skaits samazinājās par 21%.</p>
+          <ul>
+            <li>Integrēta kaloriju uzskaite caur Google Fit.</li>
+            <li>Darbavietas ledusskapju uzpildes automatizācija.</li>
+            <li>Analītikas panelis HR komandai.</li>
+          </ul>
+        </article>
+        <article class="case-card">
+          <h3>Profesionālo sportistu komanda</h3>
+          <p>4 mēnešu laikā sasniegti labākie VO2 max rādītāji pēdējo 5 sezonu laikā.</p>
+          <ul>
+            <li>Bio-sensoru dati sinhronizēti ar FIT BOX AI.</li>
+            <li>Receptes pielāgotas reģenerācijas ciklam.</li>
+            <li>Ilgtspējīga piegādes ķēde ar CO₂ uzskaiti.</li>
+          </ul>
+        </article>
+        <article class="case-card">
+          <h3>Ģimeņu kopienas tests</h3>
+          <p>Vidējais laiks, ko ģimene pavada gatavojot maltītes, samazinājās no 90 līdz 28 minūtēm dienā.</p>
+          <ul>
+            <li>Personalizēti bērnu uztura plāni.</li>
+            <li>Automātiska pārtikas alerģiju kontrole.</li>
+            <li>Dinamiskas receptes ar video pamācībām.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--testimonials" id="testimonials">
+      <div class="section__header">
+        <h2>Lietotāju atsauksmes</h2>
+        <p>Dzirdiet no cilvēkiem, kuri jau testē FIT BOX pirmizlaidumu.</p>
+      </div>
+      <div class="testimonial-grid">
+        <article class="testimonial-card">
+          <div class="avatar" aria-hidden="true">L</div>
+          <blockquote>
+            "FIT BOX platforma man palīdz kontrolēt cukura līmeni asinīs. Automatizētā plānošana un piegāde ir spēles mainītājs."
+          </blockquote>
+          <cite>Līva, biohakeru kopienas dalībniece</cite>
+        </article>
+        <article class="testimonial-card">
+          <div class="avatar" aria-hidden="true">M</div>
+          <blockquote>
+            "Uztura dati saplūst ar maniem Garmin sensoriem, un es redzu progressu reāllaikā. Vairs nav jāmin, ko ēst pēc treniņiem."
+          </blockquote>
+          <cite>Mārtiņš, triatlona sportists</cite>
+        </article>
+        <article class="testimonial-card testimonial-card--video">
+          <video controls poster="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80">
+            <source src="https://cdn.coverr.co/videos/coverr-a-foodie-smiles-at-her-salad-5025/1080p.mp4" type="video/mp4">
+            Jūsu pārlūks neatbalsta video.
+          </video>
+          <p>Anna pastāsta, kā FIT BOX palīdz viņas darba komandai saglabāt enerģiju.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--pricing" id="pricing">
+      <div class="section__header">
+        <h2>Elastīgi plāni</h2>
+        <p>Izvēlies sev piemērotāko abonēšanu un saņem ekskluzīvu piekļuvi FIT BOX iznākšanas brīdī.</p>
+      </div>
+      <div class="pricing-grid">
+        <article class="pricing-card">
+          <h3>Starter</h3>
+          <p class="price">€39<span>/nedēļā</span></p>
+          <ul>
+            <li>3 personalizētas maltītes dienā</li>
+            <li>1 piegāde nedēļā</li>
+            <li>Pamatstatistika aplikācijā</li>
+          </ul>
+          <button class="btn btn--secondary" data-plan="Starter">Izvēlēties</button>
+        </article>
+        <article class="pricing-card pricing-card--highlight">
+          <div class="ribbon">Populārākais</div>
+          <h3>Pro</h3>
+          <p class="price">€59<span>/nedēļā</span></p>
+          <ul>
+            <li>5 maltītes dienā</li>
+            <li>Elastīga piegādes plānošana</li>
+            <li>Integrācija ar fitnesa sensoriem</li>
+            <li>Personīgā uztura kouča konsultācijas</li>
+          </ul>
+          <button class="btn btn--primary" data-plan="Pro">Izvēlēties</button>
+        </article>
+        <article class="pricing-card">
+          <h3>Enterprise</h3>
+          <p class="price">€89<span>/nedēļā</span></p>
+          <ul>
+            <li>Korporatīvā piegāde komandām</li>
+            <li>Detalizēta veselības analītika</li>
+            <li>Integrācija ar HR sistēmām</li>
+            <li>Dedikēts atbalsta menedžeris</li>
+          </ul>
+          <button class="btn btn--secondary" data-plan="Enterprise">Izvēlēties</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--signup" id="signup">
+      <div class="signup__container">
+        <div class="signup__content">
+          <h2>Reģistrējies FIT BOX pirmajai piekļuvei</h2>
+          <p>Aizpildi formu, izvēlies abonēšanas plānu un saņem drošu maksājuma saiti savā e-pastā.</p>
+          <form class="signup-form" autocomplete="on">
+            <div class="form-group">
+              <label for="name">Vārds un uzvārds</label>
+              <input type="text" id="name" name="name" required placeholder="Anna Ozola">
+            </div>
+            <div class="form-group">
+              <label for="email">E-pasts</label>
+              <input type="email" id="email" name="email" required placeholder="anna@piemers.lv">
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefons</label>
+              <input type="tel" id="phone" name="phone" pattern="[+0-9\s-]{8,}" placeholder="+371 20000000">
+            </div>
+            <div class="form-group">
+              <label for="plan">Abonēšanas plāns</label>
+              <select id="plan" name="plan" required>
+                <option value="">Izvēlies plānu</option>
+                <option value="Starter">Starter</option>
+                <option value="Pro">Pro</option>
+                <option value="Enterprise">Enterprise</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="notes">Papildu informācija</label>
+              <textarea id="notes" name="notes" rows="3" placeholder="Informē mūs par alerģijām vai īpašām vēlmēm"></textarea>
+            </div>
+            <div class="form-group form-group--checkbox">
+              <input type="checkbox" id="terms" required>
+              <label for="terms">Piekrītu <a href="#">privātuma politikai</a> un pakalpojumu noteikumiem.</label>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Pabeigt reģistrāciju</button>
+            <p class="form-note">Droša maksājumu sistēma ar 3D Secure autentifikāciju. Apstiprinājuma e-pasts tiek izsūtīts automātiski.</p>
+          </form>
+        </div>
+        <aside class="signup__aside">
+          <h3>Drošība pirmajā vietā</h3>
+          <ul>
+            <li><strong>Šifrētas maksājumu plūsmas</strong> ar PCI-DSS Level 1 atbilstību.</li>
+            <li><strong>Biometriska verifikācija</strong> mūsu mobilajā aplikācijā.</li>
+            <li><strong>Automātiski rēķini</strong> un integrācija ar grāmatvedības sistēmām.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <div>
+        <h4>FIT BOX</h4>
+        <p>Veselīgu maltīšu piegāde nākotnes tempā.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#hero">Sākums</a>
+        <a href="#features">Funkcijas</a>
+        <a href="#case-studies">Gadījumu pētījumi</a>
+        <a href="#signup">Reģistrācija</a>
+      </div>
+      <div class="footer__legal">
+        <p>© <span id="year"></span> FIT BOX. Visas tiesības aizsargātas.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite">
+    <span class="toast__icon">✅</span>
+    <p class="toast__message">Paldies! Nosūtījām drošu maksājuma saiti uz tavu e-pastu.</p>
+  </div>
+
+  <script src="scripts.js" defer></script>
+</body>
+</html>
